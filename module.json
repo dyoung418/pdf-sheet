@@ -1,6 +1,6 @@
 {
-    "id": "pdf-sheet",
-    "name": "pdf-sheet",
+    "id": "pdf-sheet-daytest",
+    "name": "pdf-sheet-daytest",
     "title": "Export Sheet to PDF",
     "description": "A system agnostic module for exporting character sheets to a form-fillable and printable PDF!",
     "authors": [
@@ -10,23 +10,27 @@
             "email": "arcanistzed@gmail.com",
             "discord": "arcanist#4317",
             "reddit": "u/arcanistzed"
-        }
+        },
+	{
+            "name": "dyoung",
+            "discord": "dyoung418#0001"
+	}
     ],
     "url": "This is auto replaced",
-    "license": "https://github.com/arcanistzed/pdf-sheet/blob/main/LICENSE",
-    "readme": "https://github.com/arcanistzed/pdf-sheet/blob/main/README.md",
-    "bugs": "https://github.com/arcanistzed/pdf-sheet/issues/new/choose",
-    "changelog": "https://github.com/arcanistzed/pdf-sheet/blob/main/CHANGELOG.md",
+    "license": "https://github.com/dyoung418/pdf-sheet/blob/main/LICENSE",
+    "readme": "https://github.com/dyoung418/pdf-sheet/blob/main/README.md",
+    "bugs": "https://github.com/dyoung418/pdf-sheet/issues/new/choose",
+    "changelog": "https://github.com/dyoung418/pdf-sheet/blob/main/CHANGELOG.md",
     "flags": {
         "allowBugReporter": true
     },
     "version": "This is auto replaced",
     "compatibility": {
         "minimum": "0.7.9",
-        "verified": "10"
+        "verified": "11"
     },
     "minimumCoreVersion": "0.7.9",
-    "compatibleCoreVersion": "10",
+    "compatibleCoreVersion": "11",
     "scripts": [
         "scripts/pdfsheet.js",
         "scripts/libraries/pdfform.js/minipdf.js",
