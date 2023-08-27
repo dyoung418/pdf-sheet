@@ -33,7 +33,7 @@ Hooks.on("renderSettingsConfig", (app, html) => {
 		let editor, newTextBox;
 
 		// Get the old text box
-		const oldTextBox = html[0].querySelector("[name='pdf-sheet.mapping']");
+		const oldTextBox = html[0].querySelector("[name='pdf-sheet-daytest.mapping']");
 
 		// If Ace Library is enabled use an Ace Editor
 		if (game.modules.get("acelib")?.active) {
@@ -100,7 +100,7 @@ Hooks.on("renderSettingsConfig", (app, html) => {
 		oldTextBox.parentNode.before(mappingSelect);
 
 		// Browse and get list of included mapping files
-		FilePicker.browse("data", "modules/pdf-sheet/mappings", { extensions: [".mapping"] }).then(results => {
+		FilePicker.browse("data", "modules/pdf-sheet-daytest/mappings", { extensions: [".mapping"] }).then(results => {
 			// Add the default option first
 			results.files.unshift("");
 
@@ -123,7 +123,7 @@ Hooks.on("renderSettingsConfig", (app, html) => {
 		mappingSelect.addEventListener("change", async () => {
 			// Fetch selected mapping if not empty
 			const mapping = mappingSelect.value
-				? await fetch(getRoute(`/modules/pdf-sheet/mappings/${mappingSelect.value}.mapping`)).then(response =>
+				? await fetch(getRoute(`/modules/pdf-sheet-daytest/mappings/${mappingSelect.value}.mapping`)).then(response =>
 						response.text()
 				  )
 				: "";
@@ -170,13 +170,13 @@ class Pdfconfig extends FormApplication {
 	}
 
 	/** The module's ID */
-	static ID = "pdf-sheet";
+	static ID = "pdf-sheet-daytest";
 
 	/** @override */
 	static get defaultOptions() {
 		return mergeObject(super.defaultOptions, {
-			template: "modules/pdf-sheet/templates/module.hbs",
-			id: "pdf-sheet",
+			template: "modules/pdf-sheet-daytest/templates/module.hbs",
+			id: "pdf-sheet-daytest",
 			height: (window.innerHeight * 7) / 8,
 			width: Math.max(window.innerWidth / 3, 600),
 			resizable: true,
@@ -257,7 +257,7 @@ class Pdfconfig extends FormApplication {
 
 			// Alert if invalid
 			ui.notifications.error(
-				'PDF Sheet | Invalid mapping JavaScript Object. See the <a href="https://github.com/arcanistzed/pdf-sheet/blob/main/README.md">README</a> for more info.'
+				'PDF Sheet | Invalid mapping JavaScript Object. See the <a href="https://github.com/dyoung418/pdf-sheet-daytest/blob/main/README.md">README</a> for more info.'
 			);
 
 			// Evaluate the JS again to throw the error

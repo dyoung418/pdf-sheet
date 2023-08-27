@@ -1,7 +1,7 @@
 {
     "id": "pdf-sheet-daytest",
     "name": "pdf-sheet-daytest",
-    "title": "Export Sheet to PDF",
+    "title": "Export Sheet to PDF - daytest",
     "description": "A system agnostic module for exporting character sheets to a form-fillable and printable PDF!",
     "authors": [
         {
