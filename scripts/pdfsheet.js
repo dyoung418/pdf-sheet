@@ -48,7 +48,7 @@ Hooks.on("renderSettingsConfig", (app, html) => {
 		let editorNPC, newTextBoxNPC;
 
 		// Get the old text box
-		const oldTextBoxNPC = html[0].querySelector("[name='pdf-sheet.mapping-npc']");
+		const oldTextBoxNPC = html[0].querySelector("[name='pdf-sheet-daytest.mapping-npc']");
 
 		// If Ace Library is enabled use an Ace Editor
 		if (game.modules.get("acelib")?.active) {
