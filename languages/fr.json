@@ -4,6 +4,10 @@
       "mapping": {
         "Name": "Correspondances",
         "Hint": "JSON utilisé pour faire correspondre les champs du PDF aux informations de la feuille de personnage Foundry. Consultez le fichier README pour plus de détails."
+      },
+      "mapping-npc": {
+        "Name": "Correspondances",
+        "Hint": "JSON utilisé pour faire correspondre les champs du PDF aux informations de la feuille de NPC Foundry. Consultez le fichier README pour plus de détails."
       }
     },
     "download": {
@@ -31,6 +35,11 @@
         "label": "PDF pour Pathfinder 2e",
         "title": "Télécharger une feuille de personnage non-officielle en PDF pour Pathfinder 2e",
         "url": "https://drive.google.com/uc?export=download&id=1dP95d_1UgenS9olPasXra8iItBZFCXMo"
+      },
+      "pf2e-remastered": {
+        "label": "PDF pour Pathfinder 2e Remastered",
+        "title": "Téléchargez une feuille de personnage non-officielle Remastered en PDF pour Pathfinder 2e",
+        "url": "https://github.com/arcanistzed/pdf-sheet/blob/main/pdf/pf2e-remastered.pdf"
       },
       "dcc": {
         "label": "PDF pour Dungeon Crawl Classics",

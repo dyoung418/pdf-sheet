@@ -1,12 +1,12 @@
 # PDF Sheet
 
-![Version](https://img.shields.io/github/v/tag/dyoung418/pdf-sheet?label=Version&style=flat-square&color=2577a1) ![Latest Release Download Count](https://img.shields.io/github/downloads/dyoung418/pdf-sheet/latest/module.zip?label=Downloads&style=flat-square&color=9b43a8) ![Supported Foundry Versions](https://img.shields.io/endpoint?url=https://foundryshields.com/version?url=https://raw.githubusercontent.com/dyoung418/pdf-sheet/main/module.json&style=flat-square&color=ff6400) 
+![Version](https://img.shields.io/github/v/tag/arcanistzed/pdf-sheet?label=Version&style=flat-square&color=2577a1) ![Latest Release Download Count](https://img.shields.io/github/downloads/arcanistzed/pdf-sheet/latest/module.zip?label=Downloads&style=flat-square&color=9b43a8) ![Supported Foundry Versions](https://img.shields.io/endpoint?url=https://foundryshields.com/version?url=https://raw.githubusercontent.com/arcanistzed/pdf-sheet/main/module.json&style=flat-square&color=ff6400) [![Discord Server](https://img.shields.io/badge/-Discord-%232c2f33?style=flat-square&logo=discord)](https://discord.gg/AAkZWWqVav) [![Patreon](https://img.shields.io/badge/-Patreon-%23141518?style=flat-square&logo=patreon)](https://www.patreon.com/bePatron?u=15896855)
 
 A system agnostic tool to export your Foundry character sheet to a PDF!
 
 ## Installation
 
-In the setup screen, use the URL `https://github.com/dyoung418/pdf-sheet/releases/latest/download/module.json` to install the module.
+In the setup screen, use the URL `https://github.com/arcanistzed/pdf-sheet/releases/latest/download/module.json` to install the module.
 
 ## Usage
 
@@ -67,11 +67,24 @@ While creating a mapping, it's very helpful to work in the browser console (F12)
 
 https://user-images.githubusercontent.com/82790112/131598024-cfb300d9-57d3-4768-bd01-28b8b93c89be.mp4
 
-Please share any mappings you create with me and I will include them in the module for the benefit of the community. [See the mappings here](https://github.com/dyoung418/pdf-sheet/blob/main/mappings/README.md).
+Please share any mappings you create with me and I will include them in the module for the benefit of the community. [See the mappings here](https://github.com/arcanistzed/pdf-sheet/blob/main/mappings/README.md).
+
+## Support
+
+Please consider supporting me on [my Patreon](https://patreon.com/arcanistzed) if you like my work. You can see a list of all my projects on [my website](https://arcanist.me).
+From september 2023 the module is mantained with the collaboration of Gioppo Luca, you can find me in the arcanistzed discord server
 
 ## Bugs
 
-You can submit bugs via [Github Issues](https://github.com/dyoung418/pdf-sheet/issues/new/choose) 
+You can submit bugs via [Github Issues](https://github.com/arcanistzed/pdf-sheet/issues/new/choose) or on [my Discord server](https://discord.gg/AAkZWWqVav).
+
+## Contact me
+
+Come hang out on my [my Discord server](https://discord.gg/AAkZWWqVav) or [click here to send me an email](mailto:arcanistzed@gmail.com?subject=Export%20Sheet%20to%20PDF%20module).
+
+## New extended character sheet for 5e
+If you use homebrew content or your player does not have access to all the playing data it is useful for the master to print the whole description of spells and equipment in the extended description.
+The classic character sheet does not allow to export that content, from now on the master can use the __dnd5ev11extended.mapping__ file together with the pdf in the __/pdf__ folder and give the players a complete character book with all the needed information.
 
 ## TODO
 
