@@ -181,7 +181,7 @@ Hooks.on("renderSettingsConfig", (app, html) => {
 		oldTextBoxNPC.parentNode.before(mappingSelectNPC);
 
 		// Browse and get list of included mapping files
-		FilePicker.browse("data", "modules/pdf-sheet/mappings", { extensions: [".mapping"] }).then(results => {
+		FilePicker.browse("data", "modules/pdf-sheet-daytest/mappings", { extensions: [".mapping"] }).then(results => {
 			// Add the default option first
 			results.files.unshift("");
 
@@ -222,7 +222,7 @@ Hooks.on("renderSettingsConfig", (app, html) => {
 		mappingSelectNPC.addEventListener("change", async () => {
 			// Fetch selected mapping if not empty
 			const mapping = mappingSelectNPC.value
-				? await fetch(getRoute(`/modules/pdf-sheet/mappings/${mappingSelectNPC.value}.mapping`)).then(response =>
+				? await fetch(getRoute(`/modules/pdf-sheet-daytest/mappings/${mappingSelectNPC.value}.mapping`)).then(response =>
 						response.text()
 				  )
 				: "";
